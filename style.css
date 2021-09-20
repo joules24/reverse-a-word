@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: rgba(86, 65, 193, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(86, 65, 193, 1.0), rgba(233, 168, 242, 1.0));
+    background: -moz-linear-gradient(top left, rgba(86, 65, 193, 1.0), rgba(233, 168, 242, 1.0));
+    background: linear-gradient(to bottom right, rgba(86, 65, 193, 1.0), rgba(233, 168, 242, 1.0));
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    /* background: url(https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.6435-9/82290687_10214994168239625_1909661670913867776_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=a4a2d7&_nc_eui2=AeEtDECgUcLCj9O0kZY4asNVFBg6e9Cygb0UGDp70LKBvb2srfMind4DFS5IsxFIQxM&_nc_ohc=QGyWaeRyZB4AX88Gq42&_nc_ht=scontent.fmnl17-4.fna&oh=44e882d706b61ada6bdad787d77c48d1&oe=61694DCA);
+    background-position: center;
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#container {
+    margin: auto;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(255, 254, 254, 0.4);
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#atilas-container {
+    margin: 3rem 1rem;
+    border: 3px solid black;
+    height: 6rem;
+}
+
+.atilas {
+    margin: 0;
+    font-size: 4rem;
+    letter-spacing: 0.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* STYLE FOR INPUT */
+input {
+    border-radius: 0.4rem;
+    border-color: black;
+    width: 12rem;
+    height: 1.4rem;
+}
+
+button {
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    /* border-color: */
+}
+
+#submit {
+    background-color: rgb(241, 241, 185);
+    /* opacity: 1; */
+}
+
+#reset {
+    background-color: #ceafff;
+}
+
+footer {
+    background-color: rgb(155, 152, 152);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .atilas {
+        font-size: 2.4rem;
+        letter-spacing: 0.1rem;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    /* h1 {
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    } */
+
+    .atilas {
+        /* font-size: 3.4rem; */
+        letter-spacing: 0.2rem;
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 1440px) {
+    #container {
+        height: 60%;
+    }
+}
