@@ -85,6 +85,24 @@ footer {
     font-size: 1.5rem;
 }
 
+@media (max-width: 1440px) {
+    #container {
+        height: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .atilas {
+        /* font-size: 3.4rem; */
+        letter-spacing: 0.2rem;
+        overflow: scroll;
+    }
+}
 
 @media (max-width: 768px) {
     h1 {
@@ -99,21 +117,32 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
-    /* h1 {
-        font-size: 3rem;
-        letter-spacing: 0.5rem;
-    } */
+@media (max-width: 414px) {
+    h1 {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    input {
+        width: 6.5rem;
+    }
 
     .atilas {
-        /* font-size: 3.4rem; */
-        letter-spacing: 0.2rem;
-        overflow: scroll;
+        font-size: 1rem;
+        margin-top: 0.5rem;
     }
-}
 
-@media (max-width: 1440px) {
+    #atilas-container {
+        margin: 2rem 1rem;
+        padding: 0.6rem 0;
+        height: 3rem;
+    }
+
     #container {
-        height: 60%;
+        height: 45%;
     }
 }
